@@ -14,7 +14,7 @@ function createWindow() {
     minHeight: 768,
   });
 
-  mainWindow.setMenuBarVisibility(false);
+  mainWindow.setMenuBarVisibility(true);
 
   if (isDev)
     mainWindow.loadURL("http://localhost:3000");
